@@ -11,8 +11,8 @@ image opens source in a new window
 each page appropriately styled with css
 
 page 1 - landing page for profile site (page A requirements)
-page 2 - about me page (with links to other stuff) (page D requirements)
-page 3 - my projects/blog (images of projects created so far) (page C requirements)
+page 2 - about me page (with links to other stuff) (page C requirements)
+page 3 - my projects/blog (images of projects created so far) (page D requirements)
 page 4 - contact me page (form) (page B requirements)
 
 draft of each page sketched on paper
