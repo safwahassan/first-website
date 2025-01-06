@@ -1,0 +1,35 @@
+.navigation {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_bar_items {
+  border: 1px solid lightgray;
+  padding: 5px 30px 5px 30px;
+}
+
+.nav_bar_links {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Aboreto", "Verdana", "serif";
+}
+
+.nav_bar_items:hover {
+  border: transparent !important;
+  background-color: lightgray;
+}
+
+.nav_bar_links:visited {
+  color: rgb(77, 77, 77);
+}
+
+.welcome {
+  border: 1px solid black;
+}

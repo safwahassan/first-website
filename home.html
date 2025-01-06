@@ -4,27 +4,36 @@
     <title>Home</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="layout.css" />
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Aboreto);
+    </style>
   </head>
   <body>
-    <div>
+    <div class="navigation">
+      <ul>
+        <!-- wrapping the list item in a link that opens on the same tab-->
+        <li class="nav_bar_items">
+          <a href="home.html" class="nav_bar_links">Home</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="about.html" class="nav_bar_links">About Me</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="projects.html" class="nav_bar_links">Projects</a>
+        </li>
+        <li class="nav_bar_items">
+          <a href="contact.html" class="nav_bar_links">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="welcome">
+      <p class="greeting">Hello, I am</p>
       <h1>Safwa Hassan</h1>
     </div>
 
     <div>
-      <ul>
-        <!-- wrapping the list item in a link that opens on the same tab-->
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <img
-        src="//wsl.localhost/Ubuntu/home/safwa/self-bootcamp/projects/first-website/images/cartoon-me.jpeg"
-        alt="cartoon image of Safwa"
-      />
+      <img src="images/cartoon-me.jpeg" alt="cartoon image of Safwa" />
     </div>
 
     <div>
