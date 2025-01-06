@@ -31,5 +31,22 @@ ul {
 }
 
 .welcome {
-  border: 1px solid black;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+p.greeting {
+  margin-top: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1.name {
+  margin-bottom: 10px;
+  font-family: "Aboreto", "Verdana", "serif";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(77, 77, 77);
 }
