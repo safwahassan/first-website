@@ -87,7 +87,7 @@ h3 {
 }
 
 .about_sections {
-  padding: 10px 5px 5px 10px;
+  padding: 5px 10px 5px 10px;
   margin-bottom: 0px;
 }
 
@@ -105,7 +105,6 @@ h3 {
 }
 
 .bio_text {
-  padding-left: 10px;
   margin-top: 15px;
   margin-left: 15px;
 }
@@ -170,4 +169,20 @@ h4 {
   width: 600px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.links_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.link_items {
+  padding: 5px 5px 0px 5px;
+  text-align: center;
+}
+
+.link_items:hover {
+  border: transparent !important;
+  background-color: lightgray;
 }
