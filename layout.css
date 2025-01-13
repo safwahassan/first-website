@@ -40,6 +40,7 @@ ul {
 p.greeting {
   margin-top: 15px;
   font-family: "Times New Roman", Times, serif;
+  text-decoration: underline 2px rgb(77, 77, 77);
 }
 
 h1.name {
@@ -49,4 +50,12 @@ h1.name {
   font-weight: bold;
   font-size: 50px;
   color: rgb(77, 77, 77);
+}
+
+.cartoon_image {
+  width: 250px;
+  height: auto;
+  border: 3px solid rgb(77, 77, 77);
+  border-radius: 15px;
+  float: right;
 }
