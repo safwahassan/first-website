@@ -281,3 +281,44 @@ textarea {
   background-color: lightgray;
   cursor: pointer;
 }
+
+.image_sizing {
+  width: 100%;
+  height: auto;
+  border: 1.5px solid rgb(165, 165, 165);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0px 50px;
+}
+
+.image_labels {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+p.image_labels {
+  text-decoration: none;
+  font-family: "Aboreto", "Verdana", "serif";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.projects_page {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.project_intro {
+  padding-left: 55px;
+  margin-bottom: 5px;
+}
