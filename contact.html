@@ -27,21 +27,25 @@
     </div>
 
     <form action="form-handling-url-here" method="post">
-      <fieldset>
-        <legend>Contact Me</legend>
+      <fieldset class="form">
+        <legend class="form_legend">Contact Me</legend>
 
-        <div>
-          <label for="fullName">Full Name</label>
+        <div class="form_details">
+          <label class="name_full" for="fullName">Full Name: </label>
           <input type="text" id="fullName" name="full_name" />
         </div>
 
-        <div>
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email_address" />
+        <div class="form_details">
+          <label class="address_email" for="emailAddress"
+            >Email Address:
+          </label>
+          <input type="email" id="emailAddress" name="email_address" />
         </div>
 
-        <div>
-          <label for="developer_level">Which level developer are you?</label>
+        <div class="form_details">
+          <label class="dropdown" for="developer_level"
+            >Please select your developer "level":
+          </label>
           <select id="developer_level" name="programmer">
             <option value="junior">Junior</option>
             <option value="mid">Mid</option>
@@ -49,24 +53,24 @@
           </select>
         </div>
 
-        <div>
-          <label for="opinion"
+        <div class="form_details">
+          <label class="check" for="opinion"
             >Check this box if you enjoyed my first website!</label
           >
           <input type="checkbox" id="opinion" name="first-opinion" />
         </div>
 
-        <div>
-          <label for="comments"
-            >Please leave a comment about any future projects you would like to
-            see:
+        <div class="comment_area">
+          <label class="comment_section" for="comments"
+            >Please leave a description below about any future projects you
+            would like to see:
           </label>
           <textarea id="comments" name="comment_section"></textarea>
         </div>
 
         <!-- radio options must have the same 'name' value so the user can only select one option-->
-        <div>
-          <p>
+        <div class="selection">
+          <p class="selection_text">
             Please select an option below to subscribe to email notifications:
           </p>
 
@@ -82,7 +86,7 @@
           <label for="not-subscribed">No</label>
         </div>
 
-        <button type="submit">Submit Form</button>
+        <button class="submission" type="submit">Submit Form</button>
       </fieldset>
     </form>
   </body>

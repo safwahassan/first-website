@@ -72,12 +72,18 @@ h3 {
 }
 
 .sections {
-  width: 58%;
+  width: 70%;
   height: auto;
+  border: 1.5px solid rgb(165, 165, 165);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
 }
 
 .section_details {
   padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 1px;
 }
 
 .text_section {
@@ -185,4 +191,93 @@ h4 {
 .link_items:hover {
   border: transparent !important;
   background-color: lightgray;
+}
+
+.form_legend {
+  border: 1.5px solid rgb(165, 165, 165);
+  padding: 5px;
+  font-family: "Aboreto", "Verdana", "serif";
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form_details {
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.name_full {
+  padding: 3px;
+  margin-right: 28px;
+  font-weight: bold;
+}
+
+.address_email {
+  padding: 3px;
+  font-weight: bold;
+}
+
+.dropdown {
+  padding: 3px;
+  font-weight: bold;
+}
+
+.form_details select {
+  border: 1.5px solid rgb(165, 165, 165);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.check {
+  padding: 3px;
+  font-weight: bold;
+}
+
+.comment_area {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment_section {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 300px;
+  height: 90px;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.selection_text {
+  font-weight: bold;
+}
+
+.submission {
+  border: 1.5px solid rgb(165, 165, 165);
+  padding: 5px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  font-family: "Aboreto", "Verdana", "serif";
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.submission:hover {
+  border: transparent !important;
+  background-color: lightgray;
+  cursor: pointer;
 }
